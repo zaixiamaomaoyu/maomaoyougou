@@ -1,0 +1,10 @@
+<block>
+    <button bindtap="handelGoodsPay" type="primary">点击购买商品</button>
+</block>
+
+<block>
+      <image mode="widthFix" 
+            src="http://hbimg.b0.upaiyun.com/e1b1467beea0a9c7d6a56b32bac6d7e5dcd914f7c3e6-YTwUd6_fw658" >
+      </image>
+</block>
+

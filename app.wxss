@@ -1,0 +1,17 @@
+
+@import './static/styles/iconfont/ionfont.wxss';
+
+page,view,swiper,swiper-item,text,navigator{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+page{
+    --themeColor:#eb4450;
+    font-size: 30rpx;
+}
+
+image{
+    width: 100%;
+}

@@ -1,0 +1,15 @@
+.img{
+    width: 95rpx;
+    height: 95rpx;
+    position: relative;
+}
+.img .img{
+    width: 100%;
+}
+
+.img .ico{
+    position: absolute;
+    top: -25rpx;
+    right: -25rpx;
+}
+

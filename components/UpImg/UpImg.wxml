@@ -1,0 +1,4 @@
+<view class="img">
+    <image class="img" mode="widthFix" src="{{img}}"></image>
+    <icon class="ico" type="clear" color="red" size="18"></icon>
+</view>

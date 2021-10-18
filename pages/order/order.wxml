@@ -1,0 +1,108 @@
+<Tabs tabs="{{tabs}}"
+         bindtabsItemChange='handelTabsItemChange'>
+    <block wx:if="{{tabs[0].isActive}}">
+        <view class="order_main">
+            <view  class="order_item">
+                <view class="order_no_row">
+                    <view class="order_no_text">订单编号</view>
+                    <view class="order_no_value">GD201932343534000120I329U823</view>
+                </view>
+                <view class="order_price_row">
+                    <view class="order_price_text">订单价格</view>
+                    <view class="order_price_value">￥345</view>
+                </view>
+                <view class="order_time_row">
+                    <view class="order_time_text">订单日期</view>
+                    <view class="order_time_value">2021-10-16</view>
+                </view>
+            </view>
+
+            <view  class="order_item">
+                <view class="order_no_row">
+                    <view class="order_no_text">订单编号</view>
+                    <view class="order_no_value">GD20193234353400043424tfes3</view>
+                </view>
+                <view class="order_price_row">
+                    <view class="order_price_text">订单价格</view>
+                    <view class="order_price_value">￥193</view>
+                </view>
+                <view class="order_time_row">
+                    <view class="order_time_text">订单日期</view>
+                    <view class="order_time_value">2021-10-6</view>
+                </view>
+            </view>
+
+            <view  class="order_item">
+                <view class="order_no_row">
+                    <view class="order_no_text">订单编号</view>
+                    <view class="order_no_value">GD20193234353erw3r2332329U823</view>
+                </view>
+                <view class="order_price_row">
+                    <view class="order_price_text">订单价格</view>
+                    <view class="order_price_value">￥8995</view>
+                </view>
+                <view class="order_time_row">
+                    <view class="order_time_text">订单日期</view>
+                    <view class="order_time_value">2021-2-16</view>
+                </view>
+            </view>
+        </view>
+    </block>
+
+    <block wx:if="{{tabs[1].isActive}}">
+        <view class="order_main">
+            <view  class="order_item">
+                <view class="order_no_row">
+                    <view class="order_no_text">订单编号</view>
+                    <view class="order_no_value">GD201932343534000120I329U823</view>
+                </view>
+                <view class="order_price_row">
+                    <view class="order_price_text">订单价格</view>
+                    <view class="order_price_value">￥890</view>
+                </view>
+                <view class="order_time_row">
+                    <view class="order_time_text">订单日期</view>
+                    <view class="order_time_value">2021-10-23</view>
+                </view>
+            </view>
+        </view>
+    </block>
+
+    <block wx:if="{{tabs[2].isActive}}">
+        <view class="order_main">
+            <view  class="order_item">
+                <view class="order_no_row">
+                    <view class="order_no_text">订单编号</view>
+                    <view class="order_no_value">GD201932343534000120I329U823</view>
+                </view>
+                <view class="order_price_row">
+                    <view class="order_price_text">订单价格</view>
+                    <view class="order_price_value">￥3199</view>
+                </view>
+                <view class="order_time_row">
+                    <view class="order_time_text">订单日期</view>
+                    <view class="order_time_value">2021-10-6</view>
+                </view>
+            </view>
+        </view>
+    </block>
+
+    <block wx:if="{{tabs[3].isActive}}">
+        <view class="order_main">
+            <view  class="order_item">
+                <view class="order_no_row">
+                    <view class="order_no_text">订单编号</view>
+                    <view class="order_no_value">GD201932343534000120I329U823</view>
+                </view>
+                <view class="order_price_row">
+                    <view class="order_price_text">订单价格</view>
+                    <view class="order_price_value">￥20090</view>
+                </view>
+                <view class="order_time_row">
+                    <view class="order_time_text">订单日期</view>
+                    <view class="order_time_value">2021-10-1</view>
+                </view>
+            </view>
+        </view>
+    </block>
+</Tabs>

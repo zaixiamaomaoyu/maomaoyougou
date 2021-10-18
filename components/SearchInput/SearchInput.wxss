@@ -1,0 +1,14 @@
+.search_input{
+    height: 90rpx;
+    padding: 10rpx;
+    background-color: #eb4450;
+}
+
+.search_input .sosuo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 15rpx;
+}

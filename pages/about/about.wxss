@@ -1,0 +1,25 @@
+page{
+    height: 100%;
+}
+.txt{
+    padding: 20rpx;
+    text-indent: 2em;
+    font-size: 32rpx;
+    color: var(--themeColor);
+    font-weight: 500;
+    height: 30vh;
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .show_bga{
+    height: 100%;
+    background-size: contain;
+    background: url("https://i.loli.net/2021/10/18/8gAj7tol5GByZTi.jpg");
+} */

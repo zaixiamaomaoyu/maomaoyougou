@@ -1,0 +1,7 @@
+<view class="txt">
+    毛毛优购是一个仿商城购物街的小程序，利用微信小程序内置组件和api快速实现用户登录获取用户信息、轮播图渲染、页面跳转、上拉加载更多以及下拉刷新、商品收藏、点击加入购物车、联系客服、意见反馈等等功能。此小程序还有诸多功能尚未完善，欢迎各位宝儿点击客服，留下您宝贵的意见~
+</view>
+
+<!-- <view class="show_bga">
+</view> -->
+<image class="img" mode="widthFix" src="https://i.loli.net/2021/10/18/8gAj7tol5GByZTi.jpg"></image>

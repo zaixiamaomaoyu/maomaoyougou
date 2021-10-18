@@ -1,0 +1,8 @@
+<view class="sousuo">
+    
+    <navigator url="../../pages/feedback/feedback" class="nav">
+        搜索
+        <text class="iconfont icon-shoucang"></text>
+    </navigator>
+
+</view>

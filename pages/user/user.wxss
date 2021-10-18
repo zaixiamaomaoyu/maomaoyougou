@@ -1,0 +1,164 @@
+page{
+    background-color: #eee;
+}
+.user_info_wrap{
+    height: 45vh;
+    background-color: var(--themeColor);
+    overflow: hidden;
+    position: relative;
+}
+
+.user_img_wrap{
+    position: relative;
+}
+
+.user_btn{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 40%;
+    border: 1rpx solid green;
+    padding: 30rpx;
+    border-radius: 10rpx;
+}
+
+.user_bg{
+    height: 50vh;
+    /* 高斯模糊 */
+    filter: blur(10rpx);
+}
+
+.user_info{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 30%;
+}
+
+.user_icon{
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 50%;
+    margin-bottom: 20rpx;
+}
+
+.user_name{
+    font-size: larger;
+}
+
+/* 历史记录 */
+/* .user_content{
+    position: relative;
+} */
+
+.user_main{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%);
+    width: 90%;
+    padding-bottom: 100rpx;
+}
+
+.user_history{
+    display: flex;
+    background-color: #ffffff;
+    
+}
+
+.nav{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.his_num{
+    color: var(--themeColor);
+}
+.his_name{
+    padding: 10rpx;
+}
+
+/* 我的订单 */
+.user_order{
+    margin-top: 20rpx;
+}
+
+.mine{
+    background-color: #ffffff;
+    width: 100%;
+    border: 3rpx solid #eee;
+    height: 60rpx;
+    line-height: 60rpx;
+    padding-left: 20rpx;
+}
+
+.order_item{
+    display: flex;
+    background-color: #ffffff;
+}
+
+.order_nav{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rpx 0;
+}
+
+.iconfont{
+    color: var(--themeColor);
+    font-size: 52rpx;
+    padding-bottom: 10rpx;
+}
+
+.address{
+    padding: 20rpx;
+    background-color: #ffffff;
+    margin: 20rpx 0;
+}
+
+.info{
+    background-color: #ffffff;
+    margin-top: 20rpx;
+}
+
+.info_item{
+    padding: 20rpx;
+    border-bottom: 2rpx solid #eee;
+}
+
+.kefu{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.kefu_btn{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.fenxiang{
+    background-color: #ffffff;
+    padding: 20rpx;
+    margin-top: 20rpx;
+    position: relative;
+}
+
+.fenxiang_btn{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+

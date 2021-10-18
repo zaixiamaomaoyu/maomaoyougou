@@ -1,0 +1,6 @@
+<button type="primary" plain
+        bindgetuserinfo="handelGetUserInfo"
+        open-type="getUserInfo"
+        open-data>
+    登录
+</button>

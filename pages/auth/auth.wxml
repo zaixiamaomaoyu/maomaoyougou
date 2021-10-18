@@ -1,0 +1,6 @@
+<button type="primary"
+        plain
+        open-type="getUserInfo"
+        bindgetuserinfo="handelGetUserInfo">
+    按钮
+</button>
